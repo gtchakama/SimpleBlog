@@ -1,0 +1,9 @@
+<div class="container mt-5">
+  <h1 class="mb-4">New Post</h1>
+
+  <%= render "form", post: @post %>
+
+  <div class="mt-4">
+    <%= link_to "Back to Posts", posts_path, class: "btn btn-secondary" %>
+  </div>
+</div>
